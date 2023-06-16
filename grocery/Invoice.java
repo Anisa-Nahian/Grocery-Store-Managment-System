@@ -3,8 +3,8 @@ package com.mycompany.grocery;
 
 import java.util.ArrayList;
 public class Invoice {
-    Customer c;
-    ArrayList<Purchase> purchase;
+   private  Customer c;
+   private ArrayList<Purchase> purchase;
     
     public Invoice() {
         this.c = new Customer("","","","");
