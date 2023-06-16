@@ -2,9 +2,9 @@
 package com.mycompany.grocery;
 
 public class Purchase{
-    Product p;
-    int quantity;
-    double cost;
+   private Product p;
+   private int quantity;
+   private double cost;
     
     public Purchase() {
         this.p=new Product(0,"",0,"");
